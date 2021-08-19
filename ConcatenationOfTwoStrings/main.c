@@ -17,5 +17,7 @@ int main()
     }
     first[i]='\0';
    printf("On concatenating the two strings: %s", first);
+   printf("\nsizeof(string): %ld", sizeof(first));//array capacity
+   printf("\nString length: %d", strlen(first));//string usage
 return 0;
 }
